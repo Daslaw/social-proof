@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body {
     font-size: 15px;
+    font-family: 'League Spartan', sans-serif;
 }
 
 section {
@@ -30,7 +30,7 @@ section {
 }
 
 .main-text {
-    flex-basis: 50%;
+    flex-basis: 40%;
 }
 
 .main-text h1 {
@@ -42,6 +42,7 @@ section {
 .main-text p {
     color: hsl(303, 10%, 53%);
     line-height: 200%;
+    font-size: 20px;
 }
 
 .rating {
