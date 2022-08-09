@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    font-size: 15px;
+}
+
+section {
+    background-image: url(../images/bg-pattern-top-desktop.svg);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.row {
+    max-width: 80%;
+    margin: 0 auto 80px auto;
+
+}
+
+/* Top layer of the Section */
+.top-layer {
+    position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-text {
+    flex-basis: 50%;
+}
+
+.main-text h1 {
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.main-text p {
+    color: hsl(303, 10%, 53%);
+    line-height: 150%;
+}
+
+.rating {
+    background-color: hsl(300, 24%, 96%);
+    padding: 20px;
+    display: flex;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.rating-1 {
+    right: 90px;
+}
+
+.rating-2 {
+    right: 50px;
+}
+
+.rating-3 {
+    right: 0;
+}
+
+.rating p {
+    font-weight: bold;
+    color: hsl(300, 43%, 22%);
+    margin-left: 15px;
+}
+
+/* Bottom Layer of the Section */
+.bottom-layer {
+    display: flex;
+    position: relative;
+    top: 50%;
+    bottom: 50px;
+}
+
+.card {
+    background-color: hsl(300, 43%, 22%);
+    width: 350px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.card-2 {
+    top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.card-3 {
+    top: 30px;
+}
+
+.card-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.card-info .info {
+    margin-left: 20px;
+    line-height: 150%;
+
+}
+
+.card-info .info h2 {
+    color: hsl(300, 24%, 96%);
+    font-size: 15px;
+
+}
+
+.card-info .info p {
+    color: hsl(333, 80%, 67%);
+
+}
+
+.card p {
+    color: hsl(300, 24%, 96%);
+    display: inline;
+    font-size: 14px;
+}
+
+.card img {
+    border-radius: 50%;
+    width: 50px;
+}
+
+.card .card-content {
+    margin-bottom: 20px;
+}
